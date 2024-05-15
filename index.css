@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px green;
+}
+
+h4{
+    text-align: center;
+}
+
+.para{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    line-height: 20px;
+}
+
+h1:hover{
+    color: red;
+    text-shadow: 5px 5px 5px rgb(128, 0, 117);
+}
+
+.circle-1{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+   border-radius: 50px;
+}
+
+.circle-2{
+    background-color: red;
+    height: 60px;
+   width: 60px;
+   border-radius: 50px;
+}
+.box-1{
+    background-color: red;
+    height: 60px;
+   width: 60px;  
+}
+
+.box2{
+    width: 100%;
+    background-color: yellow;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.box-1-1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+}
+
+.two{
+    background-color: red;
+    flex-grow: 2;
+    align-self: self-start;
+}
+.three{
+    background-color: green;
+    flex-grow: 4;
+    align-self: self-end;
+}
+
+.parent{
+    display: flex;
+}
+.paragarph2{
+    background-color: red;
+}
+.paragarph3{
+    background-color: green;
+}
+.paragarph4{
+    background-color: pink;
+}
